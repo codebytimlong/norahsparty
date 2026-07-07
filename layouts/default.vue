@@ -74,16 +74,16 @@ const $theme = computed(() => {
       <div class="md:flex md:space-x-6 md:py-12">
         <dl
           class="text-2xl flex space-x-12 justify-start w-full py-12 md:py-0 md:flex-col md:space-x-0 md:space-y-6">
-          <PartyDetail dt="When">
-            <p>
+          <PartyDetail dt="When" class="w-1/4">
+            <p class="w-full whitespace-nowrap">
               <slot name="date" />
             </p>
-            <p>
+            <p class="w-full whitespace-nowrap">
               <slot name="time" />
             </p>
           </PartyDetail>
 
-          <PartyDetail dt="Where">
+          <PartyDetail dt="Where" class="w-3/4">
             <slot name="where" />
           </PartyDetail>
         </dl>
