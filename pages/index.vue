@@ -22,7 +22,7 @@ definePageMeta({
   </template>
 
   <template #date>
-    August 2
+    Aug 2
   </template>
 
   <template #time>
