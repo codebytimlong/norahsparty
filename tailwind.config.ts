@@ -7,27 +7,28 @@ module.exports = {
   ],
   theme: {
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      white: '#fff',
-      black: '#000',
+      transparent: "transparent",
+      current: "currentColor",
+      white: "#fff",
+      black: "#000",
       standard: {
-        DEFAULT: '#414ACB',
-        darker: '#1E28B8',
-        accent: '#B79620'
+        DEFAULT: "#FFB6AE",
+        darker: "#FF9584",
+        accent: "#FFF6F5",
+        blue: "#005475",
+        lightblue: "#50C7D9",
       },
       vip: {
-        DEFAULT: '#D4B95A',
-        darker: '#B79620',
-        accent: '#1E28B8',
-      }
+        DEFAULT: "#FFB6AE",
+        darker: "#FF9584",
+        accent: "#FFF6F5",
+      },
     },
     fontFamily: {
-      'display': ['Michroma', 'sans-serif'],
-      'body': ["'DM Sans'", 'sans-serif']
+      display: ["Michroma", "sans-serif"],
+      body: ["'DM Sans'", "sans-serif"],
     },
     extend: {},
   },
   plugins: [],
-}
-
+};
