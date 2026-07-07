@@ -75,16 +75,16 @@ const $theme = computed(() => {
         <dl
           class="text-2xl flex space-x-12 justify-start w-full py-12 md:py-0 md:flex-col md:space-x-0 md:space-y-6">
           <PartyDetail dt="When">
-            <p>July 27</p>
+            <p>
+              <slot name="date" />
+            </p>
             <p>
               <slot name="time" />
             </p>
           </PartyDetail>
 
           <PartyDetail dt="Where">
-            <p>Kenneth R Dunn Municipal Pool</p>
-            <!-- <a class="underline text-standard-accent hover:text-standard-accent/80"
-                href="https://www.skyzone.com/timonium/">View site</a> -->
+            <slot name="where" />
           </PartyDetail>
         </dl>
 
