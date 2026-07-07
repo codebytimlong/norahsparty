@@ -22,7 +22,7 @@ definePageMeta({
   </template>
 
   <template #date>
-    July 26
+    August 2
   </template>
 
   <template #time>
@@ -30,7 +30,7 @@ definePageMeta({
   </template>
 
   <template #where>
-    <p>Kenneth R Dunn Municipal Pool</p>
+    <p>Kenneth R Dunn Municipal Pool at Truxtun Park</p>
   </template>
 
   <template #description>
